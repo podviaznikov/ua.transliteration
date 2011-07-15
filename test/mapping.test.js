@@ -177,7 +177,6 @@ exports['test Яя']=function(){
     assert.eql('Feodosiia',transliteration.transliterate('Феодосія'));
 };
 
-
 exports['test minus']=function(){
     assert.eql('Volodymyr-Volynskyi',transliteration.transliterate('Володимир-Волинський'));
 };
