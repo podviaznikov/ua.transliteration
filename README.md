@@ -7,6 +7,13 @@ All test cases from the law are implemented.
 
 Library can be used in browser on node.js platform.
 
+## How to use
+
+There is simple transliteration global object.
+
+For transliterating simple do this:
+
+    var transliteratedValue=transliteration.ua.transliterate('Алушта');
 
 ## License
 
