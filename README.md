@@ -6,6 +6,9 @@ Was implemented totally corresponds to Ukrainian law: http://zakon1.rada.gov.ua/
 All test cases from the law are implemented.
 
 Library can be used in browser on node.js platform.
+Minified version can be found in the min directory.
+
+Published as npm package - transliteration.ua.
 
 ## How to use
 

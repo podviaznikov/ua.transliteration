@@ -1,0 +1,12 @@
+{ "name"          : "transliteration.ua",
+  "description"   : "Transliteration library for Ukrainian words (cyrillic to latin)",
+  "author"        : "Anton Podviaznikov <podviaznikov@gmail.com>",
+  "url"           : "https://github.com/podviaznikov/ua.transliteration",
+  "keywords"      : ["transliteration","ukrainian"],
+  "version"       : "1.0.0",
+  "main"          : "./lib/transliteration.ua",
+  "engines"       : { "node": ">= 0.4.0" },
+   "devDependencies": {
+        "expresso": "0.8.1"
+   }
+}
