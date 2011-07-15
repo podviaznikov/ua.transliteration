@@ -176,3 +176,21 @@ exports['test Яя']=function(){
     assert.eql('Znamianka',transliteration.transliterate("Знам'янка"));
     assert.eql('Feodosiia',transliteration.transliterate('Феодосія'));
 };
+
+
+exports['test minus']=function(){
+    assert.eql('Volodymyr-Volynskyi',transliteration.transliterate('Володимир-Волинський'));
+};
+
+exports['test underscore']=function(){
+    assert.eql('Volodymyr_Volynskyi',transliteration.transliterate('Володимир_Волинський'));
+};
+
+exports['test empty and null string']=function(){
+    assert.eql('',transliteration.transliterate(''));
+    assert.eql('',transliteration.transliterate());
+};
+
+exports['test multiple zg']=function(){
+    assert.eql('zghazgh',transliteration.transliterate('згaзг'));
+};
