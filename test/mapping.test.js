@@ -1,6 +1,6 @@
 var util=require('util'),
     assert=require('assert'),
-    transliteration=require('../lib/ua.transliteration');
+    transliteration=require('../lib/transliteration.ua');
 
 exports['test Аa']=function(){
     assert.eql('Alushta',transliteration.transliterate('Алушта'));
