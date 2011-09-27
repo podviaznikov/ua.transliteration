@@ -1,7 +1,7 @@
 # transliteration.ua
 
 JavaScript library for transliteration cyrillic ukrainian words to latin.
-Was implemented totally corresponds to Ukrainian law: http://zakon1.rada.gov.ua/cgi-bin/laws/main.cgi?nreg=55-2010-%EF.
+Was implemented with following Ukrainian law in mind: http://zakon1.rada.gov.ua/cgi-bin/laws/main.cgi?nreg=55-2010-%EF.
 
 All test cases from the law are implemented.
 
