@@ -24,7 +24,7 @@ and this
 ```javascript
     var transliteration = require('transliteration');
     var transliteratedValue = transliteration.ua.transliterate('Алушта');
-```javascript
+```
 
 ## License
 
